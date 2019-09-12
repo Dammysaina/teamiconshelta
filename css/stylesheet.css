@@ -1,0 +1,180 @@
+.padding-top{
+	padding-top:200px;
+	padding-bottom:200px;
+}
+
+.padding-top-1{
+	padding-top:150px;
+	padding-bottom:150px;
+}
+
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+
+
+h3{
+	color:#2323bb;
+	font-family: 'Righteous', cursive;
+}
+
+p{
+	text-align:justify;
+	font-family: 'Asap', sans-serif;
+}
+
+#menu ul li{
+	font-family: 'Righteous', cursive;
+	font-size:20px;
+}
+
+ul li .fa-shopping-cart{
+	font-size:30px;
+	padding:0px;
+
+}
+img .carousel-inner{
+	max-width: 20%;
+	height: 50px;
+}
+#furniture{
+	background-image:url(../images/image1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	opacity: 0.5;
+	height: 400px;
+}
+
+.fa-search{
+	font-size:5px;
+	padding:10px;
+	
+}
+
+#furniture .btn-success:hover{
+	background-color:transparent;
+	color:#2323bb;
+}
+
+.input-group.md-form.form-sm.form-1 input{
+	border: 1px solid rgba(255, 255, 0, 0.89);
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+
+}
+/*END OF FURNITURE CSS*/
+
+
+#product{
+	background-color:#f1f1f1;
+	padding-top:50px;
+	padding-bottom: 50px;
+	text-align:center;
+}
+
+
+#product .col-4{
+	border: 5px solid #f0f0f0;
+	margin:50px;
+}
+/*END OF PRODUCT*/
+
+
+/* #global{
+	background-image:url(../images/man.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+} */
+
+/*END OF GLOBAL*/
+
+
+#How-It-Works{
+	padding:100px;
+	background-color:#e6e6e6;
+	text-align: center;
+}
+
+#How-It-Works .fab, .fas{
+	font-size:70px;
+	padding:20px;
+}
+
+#How-It-Works .btn-success{
+	background-color:#2323bb;
+	border-color:#2323bb;
+	font-family: 'Righteous', cursive;
+}
+
+#How-It-Works .btn-success:hover{
+	background-color:transparent;
+	border-color:#2323bb;
+	color:#2323bb;
+	font-family: 'Righteous', cursive;
+}
+
+/*END OF HOW IT WORK*/
+
+
+#youtube{
+	padding:20px;
+}
+/*END OF YOUTUBE*/
+
+
+#client{
+	padding:50px;
+}
+
+#client .client-m{
+	padding-left:10%;
+
+}
+
+/*CLIENT END HERE*/
+
+#workplaces{
+	background-image:url(../images/workplaces.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color: white;
+	box-sizing: border-box;
+}
+
+#workplaces .btn-info{
+	background-color: #777475c2;
+	border-color: #2323bb;
+}
+#workplaces .btn-info:hover{
+	background-color:transparent;
+	border-color: #2323bb;
+	color:#2323bb;
+}
+
+/*END OF WORKPLACES*/
+
+#partner{
+	padding:30px;
+}
+
+#partner p{
+	text-align:center;
+}
+
+footer .footer-logo{
+	text-align: center;
+	padding:30px;
+	font-family: 'Cookie', cursive;
+	font-size:30px;
+
+}
+
+footer .bg-danger{
+	background-color:black !important;
+	padding-top:5px;
+}
+
+footer .ml-auto{
+	padding-right:10%;
+}
