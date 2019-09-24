@@ -23,8 +23,8 @@ p{
 }
 
 #menu ul li{
-	font-family: 'Righteous', cursive;
-	font-size:20px;
+	/* font-family: 'Righteous', cursive;
+	font-size:20px; */
 }
 /* body {
     font-family: 'Montserrat',sans-serif;
@@ -48,70 +48,6 @@ ul li .fa-shopping-cart{
 .padding-top.text-dark{
 	color:purple;
 }
-.form-dark .font-small {
-	font-size: 0.8rem; }
-  
-  .form-dark [type="radio"] + label,
-  .form-dark [type="checkbox"] + label {
-	font-size: 0.8rem; }
-  
-  .form-dark [type="checkbox"] + label:before {
-	top: 2px;
-	width: 15px;
-	height: 15px; }
-  
-  .form-dark .md-form label {
-	color: #fff; }
-  
-  .form-dark input[type=email]:focus:not([readonly]) {
-	border-bottom: 1px solid #00C851;
-	-webkit-box-shadow: 0 1px 0 0 #00C851;
-	box-shadow: 0 1px 0 0 #00C851; }
-  
-  .form-dark input[type=email]:focus:not([readonly]) + label {
-	color: #fff; }
-  
-  .form-dark input[type=password]:focus:not([readonly]) {
-	border-bottom: 1px solid #00C851;
-	-webkit-box-shadow: 0 1px 0 0 #00C851;
-	box-shadow: 0 1px 0 0 #00C851; }
-  
-  .form-dark input[type=password]:focus:not([readonly]) + label {
-	color: #fff; }
-  
-  .form-dark input[type="checkbox"] + label:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 17px;
-	height: 17px;
-	z-index: 0;
-	border: 1.5px solid #fff;
-	border-radius: 1px;
-	margin-top: 2px;
-	-webkit-transition: 0.2s;
-	transition: 0.2s; }
-  
-  .form-dark input[type="checkbox"]:checked + label:before {
-	top: -4px;
-	left: -3px;
-	width: 12px;
-	height: 22px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: transparent #00c851 #00c851 transparent;
-	-webkit-transform: rotate(40deg);
-	-ms-transform: rotate(40deg);
-	transform: rotate(40deg);
-	-webkit-backface-visibility: hidden;
-	-webkit-transform-origin: 100% 100%;
-	-ms-transform-origin: 100% 100%;
-	transform-origin: 100% 100%; }
-  
-  .form-dark .modal-header {
-	  border-bottom: none;
-  }
 .btn-cta {
     /* background-color: #20201c; */
     font-weight: 500;
@@ -151,7 +87,7 @@ button {
 	background-image:url(../images/image1.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
-	opacity: 0.5;
+	opacity: 0.9;
 	height: 400px;
 }
 
@@ -164,7 +100,7 @@ button {
 
 #furniture .btn-success:hover{
 	background-color:transparent;
-	color:purple;
+	color:rgb(128, 0, 128);
 }
 
 .input-group.md-form.form-sm.form-2 input.amber-border {
@@ -225,21 +161,6 @@ img .carousel-inner{
 /*END OF HOW IT WORK*/
 
 
-/* #youtube{
-	padding:20px;
-} */
-/*END OF YOUTUBE*/
-
-
-/* #client{
-	padding:50px;
-} */
-
-/* #client .client-m{
-	padding-left:10%;
-
-} */
-
 /*CLIENT END HERE*/
 
 #workplaces{
@@ -276,6 +197,9 @@ footer .footer-logo{
 	font-family: 'Cookie', cursive;
 	font-size:30px;
 
+}
+footer .bg-dark{
+	color: purple;
 }
 
 footer .bg-danger{
